@@ -116,5 +116,7 @@ model = dict(
 data = dict(
     samples_per_gpu=4,
     workers_per_gpu=2)
-optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0001)
+optimizer = dict(type='SGD', lr=0.02, momentum=0.9, weight_decay=0.0001)
 evaluation = dict(interval=50, metric=['bbox', 'segm'])
+
+work_dir='./out/ShipRSImageNet/logs/cascade_rcnn/cascade_mask_rcnn_r50_fpn_100e_ShipRSImageNet_Level3'

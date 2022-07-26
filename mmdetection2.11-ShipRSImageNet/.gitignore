@@ -1,0 +1,12 @@
+*.pth
+*.py~
+*.sh~
+.DS_STORE
+*.pkl
+*.pkl.json
+
+*.egg-info/
+data/
+out/
+
+

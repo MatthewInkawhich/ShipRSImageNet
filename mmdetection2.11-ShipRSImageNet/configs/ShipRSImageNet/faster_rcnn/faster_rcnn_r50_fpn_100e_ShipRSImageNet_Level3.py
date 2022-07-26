@@ -13,3 +13,5 @@ model = dict(
 
 
 evaluation = dict(interval=50, metric='bbox')
+
+work_dir='./out/ShipRSImageNet/logs/faster_rcnn/faster_rcnn_r50_fpn_100e_ShipRSImageNet_Level3'
